@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>test</title>
+    <link href="https://SeiunSky.gitHub.io/feed.xml" rel="self" />
+    <link href="https://SeiunSky.gitHub.io" />
+    <updated>2024-05-25T19:25:24+08:00</updated>
+    <author>
+        <name>SeiunSky</name>
+    </author>
+    <id>https://SeiunSky.gitHub.io</id>
+
+    <entry>
+        <title>hello</title>
+        <author>
+            <name>SeiunSky</name>
+        </author>
+        <link href="https://SeiunSky.gitHub.io/hello.html"/>
+        <id>https://SeiunSky.gitHub.io/hello.html</id>
+
+        <updated>2024-05-25T19:25:24+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>

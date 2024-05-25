@@ -3,12 +3,24 @@
     <title>test</title>
     <link href="https://plznoteaseme.gitHub.io/feed.xml" rel="self" />
     <link href="https://plznoteaseme.gitHub.io" />
-    <updated>2024-05-25T19:46:44+08:00</updated>
+    <updated>2024-05-25T19:49:20+08:00</updated>
     <author>
         <name>SeiunSky</name>
     </author>
     <id>https://plznoteaseme.gitHub.io</id>
 
+    <entry>
+        <title>nihao</title>
+        <author>
+            <name>SeiunSky</name>
+        </author>
+        <link href="https://plznoteaseme.gitHub.io/nihao.html"/>
+        <id>https://plznoteaseme.gitHub.io/nihao.html</id>
+
+        <updated>2024-05-25T19:49:20+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>你好世界</title>
         <author>

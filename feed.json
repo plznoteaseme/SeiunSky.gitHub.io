@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "test",
     "description": "",
-    "home_page_url": "https://SeiunSky.gitHub.io",
-    "feed_url": "https://SeiunSky.gitHub.io/feed.json",
+    "home_page_url": "https://plznoteaseme.gitHub.io",
+    "feed_url": "https://plznoteaseme.gitHub.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "SeiunSky"
     },
     "items": [
         {
-            "id": "https://SeiunSky.gitHub.io/hello.html",
-            "url": "https://SeiunSky.gitHub.io/hello.html",
+            "id": "https://plznoteaseme.gitHub.io/hello.html",
+            "url": "https://plznoteaseme.gitHub.io/hello.html",
             "title": "hello",
             "author": {
                 "name": "SeiunSky"

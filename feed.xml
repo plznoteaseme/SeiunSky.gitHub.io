@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>test</title>
+    <title>Web作业</title>
     <link href="https://plznoteaseme.gitHub.io/feed.xml" rel="self" />
     <link href="https://plznoteaseme.gitHub.io" />
-    <updated>2024-05-25T19:49:20+08:00</updated>
+    <updated>2024-05-25T19:56:38+08:00</updated>
     <author>
         <name>SeiunSky</name>
     </author>
@@ -18,8 +18,16 @@
         <id>https://plznoteaseme.gitHub.io/nihao.html</id>
 
         <updated>2024-05-25T19:49:20+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                    helloworld
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>helloworld</p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>你好世界</title>

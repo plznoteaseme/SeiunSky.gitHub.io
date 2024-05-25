@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://plznoteaseme.gitHub.io/sitemap.xml

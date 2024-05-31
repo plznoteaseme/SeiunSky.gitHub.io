@@ -163,3 +163,11 @@ footer{
 .zoomable:hover, .zoomable:active {
 	transform: scale(1.5); /* 图片在悬停或点击时的放大倍数 */
 }
+
+audio{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	display: flex;
+}

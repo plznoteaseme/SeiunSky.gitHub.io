@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.bigbox{
+	width: 100%
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	position: absolute;
+	top:10%;
+	left: 8.5%;
+	transform: translate(-50%,-50%);
+}
+.logo-description {
+	position: absolute;
+	top: 15%;
+	transform: translateY(-50%);
+	left: 5%; /* 调整这个值来设置介绍文本距离logo的水平距离 */
+	font-size: 15px;
+}
+nav ul{
+	position: absolute;
+	top:10%;
+	left: 73%;
+	transform: translate(-50%,-50%);
+	display: flex;
+}
+nav ul li{
+	width: 100px;
+	list-style: none;
+	line-height: 30px;
+}
+nav ul li a{
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 15px 0;
+	font-size: 16px;
+	color: #000000;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	transform: scaleY(1.3);
+	opacity: 0;
+	transition: .5s;
+}
+nav ul li a:hover:before{
+	transform: scaleY(0.8);
+	opacity: 1;
+}
+.news{
+	position: relative; /* 设置为相对定位，以便子元素可以相对于它定位 */
+	height: 700px; /* 根据需要调整高度 */
+}
+.news .title{
+	text-align: center;
+	line-height: 60px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+	width: 500px;
+	height: 60px;
+	background-color: #a6bdae;
+	margin: 0 auto;
+}
+.news .bigcard{
+	width: 100%;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 640px;
+}
+.bigcard video{
+	width: 100%;
+	height: auto;
+	object-fit: fill;
+}
+.source-container {
+	display: block; /* 确保元素是块级元素 */
+	margin-top: 10px; /* 在视频下方添加一些空间 */
+	width: 100%;
+	text-align: center;
+	overflow: hidden; /* 防止内容溢出 */
+}
+
+.source {
+	font-size: 0.8em;
+	color: #333;
+}
+
+.source a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+.source a:hover {
+	text-decoration: underline;
+}
+.htzs{
+	height: 520px;
+	background-color: #fff;
+}
+.htzs img{
+	width: 300px;
+	height: 200px;
+}
+.htzs .title{
+	text-align: center;
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+
+}
+.htzs .content1{
+	float: left;
+	width: 610px;
+	height: 200px;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+.htzs .content2{
+	float: right;
+	width: 610px;
+	height: 200px;
+	margin: 20px 30px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+.htzs .content3{
+	clear: both;
+	float: left;
+	width: 610px;
+	height: 200px;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+.htzs .content4{
+	clear: right;
+	float: right;
+	width: 610px;
+	height: 200px;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+.htzs .img{
+
+	float: left;
+	margin-right: 10px;
+}
+.htzs .text{
+	width: 300px;
+	height: 200px;
+	float: right;
+	line-height: 40px;
+
+}
+.htzs .text h2{
+	margin-bottom: 10px;
+}
+.htzs .text a{
+	color: #000;
+}
+.htzs .text p{
+	font-size: 14px;
+	line-height: 30px;
+}
+.md{
+	width: 48px;
+	height:48px;
+	position: fixed;
+	right: 10px;
+	bottom: 30px;
+}
+footer{
+	margin-top: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #f1f1f1;
+	position: static; /* 更改为静态位置 */
+}
+/* .gg{
+	width: 100%;
+	height:20px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+} */
+.gg{
+	width: 100%;
+	/* background: lightblue; */
+	padding: 20px 0;
+}
+.gg::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.titl{
+	float: left;
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 20px;
+	/* margin: 0; */
+	margin-top: -10px;
+	border-right: 3px solid #000000;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #000000;
+}
+.list1{
+	/*float: left;*/
+	list-style: none;
+	padding: 0;
+	height: 30px;
+	overflow: hidden;
+	/* margin: 0; */
+	margin-top: -15px;
+	margin-left: 60px;
+}
+.list1 li{
+	margin-left: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #000000;
+}

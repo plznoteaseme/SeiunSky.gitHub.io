@@ -131,9 +131,5 @@ table{
 	margin-right: 10px;
 }
 audio{
-	position: absolute;
-	top: 24%;
-	left: 30%;
-	transform: translate(-50%,-50%);
-	display: flex;
+	padding: 120px 15px;
 }

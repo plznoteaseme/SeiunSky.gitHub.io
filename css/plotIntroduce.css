@@ -165,9 +165,5 @@ footer{
 }
 
 audio{
-	position: absolute;
-	top: 30%;
-	left: 25%;
-	transform: translate(-50%,-50%);
-	display: flex;
+	padding: 120px 15px;
 }
